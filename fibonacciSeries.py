@@ -1,8 +1,11 @@
 def fib(n):
+
     first = 0
     second = 1
 
-    if n==1:
+    if n < 0:
+        print("Please enter a positive number")
+    elif n == 1:
         print(first)
     else:
         print(first, second, end=" ")
