@@ -19,4 +19,4 @@ def fib(n):
 
 n = int(input("Enter how many numbers of the series you want:"))
 
-fib(n)
+fib(n
